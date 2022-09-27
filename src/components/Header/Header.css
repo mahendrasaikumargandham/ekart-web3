@@ -1,0 +1,93 @@
+.header {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    z-index: 100;
+    backdrop-filter: blur(15px);
+    position: sticky;
+}
+
+.home {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.inpt {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.inpt input {
+    height: 18px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    font-size: 17px;
+    font-weight: 500;
+    padding-left: 10px;
+    background-color: lightgray;
+    outline: none;
+    margin-left: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.wallet button {
+    position: relative;
+    padding: 10px;
+    font-size: 17px;
+    height: 38px !important;
+    color: #fff;
+    outline: none;
+    border: none;
+    background: #0c002b;
+    margin-left: 20px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.inpt button {
+    position: relative;
+    padding: 10px;
+    font-size: 17px;
+    height: 38px !important;
+    color: #fff;
+    outline: none;
+    border: none;
+    background: #0c002b;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+.options {
+    align-items: center;
+}
+
+.options a {
+    margin: 20px;
+    text-decoration: none;
+    color: #000000;
+}
+
+@media(max-width: 768px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+    .options {
+        margin-top: 10px;
+    }
+    .options a {
+        margin: 10px;
+        margin-top: 10px;
+    }
+}

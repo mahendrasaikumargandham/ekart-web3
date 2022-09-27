@@ -1,0 +1,29 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #fff;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.footer a {
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer .opt1, .opt2, .opt3, .opt4 {
+    margin: 20px;
+}
+
+@media(max-width: 768px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+}
