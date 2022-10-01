@@ -1,8 +1,9 @@
 .products {
     justify-content: center;
-    overflow-x: hidden;
     box-sizing: border-box;
-    color: #000000;
+    color: #fff;
+    background: #222;
+    font-family: 'JetBrains Mono', monospace;
 }
 
 .product-array {
@@ -39,10 +40,17 @@
 }
 
 @media(max-width: 768px) {
+    .product-category {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        
+    }
     .product-array {
         display: flex;
         flex-direction: column;
-        margin: 5px;
-        padding: 0;
+        margin: 10px;
+        width: 80%;
+        overflow-x: visible;
     }
 }

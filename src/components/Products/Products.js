@@ -7,18 +7,16 @@ function Products() {
   return (
     <div className = "products">
         <div className='product-array'>
-            <Product id = "11" name = "Iphone 14 Pro" image = {iphone} price = "9999" />
-            <Product id = "11" name = "Iphone 14 Pro" image = {iphone} price = "9999" />
-            <Product id = "11" name = "Iphone 14 Pro" image = {iphone} price = "9999" />
-            <Product id = "11" name = "Iphone 14 Pro" image = {iphone} price = "9999" />
-        </div>
-        <div className='product-array'>
-            <Product id = "11" name = "Iphone 14 Pro" image = {iphone} price = "9999" />
+            <Product id = "11" name = "OnePlus 10" image = {iphone} price = "9999" />
             <Product id = "11" name = "Iphone 14 Pro" image = {iphone} price = "9999" />
             <Product id = "11" name = "Iphone 14 Pro" image = {iphone} price = "9999" />
         </div>
         <div className='product-array'>
             <Product id = "11" name = "Iphone 14 Pro" image = {iphone} price = "9999" />
+            <Product id = "11" name = "Iphone 14 Pro" image = {iphone} price = "9999" />
+            <Product id = "11" name = "Iphone 14 Pro" image = {iphone} price = "9999" />
+        </div>
+        <div className='product-array'>
             <Product id = "11" name = "Iphone 14 Pro" image = {iphone} price = "9999" />
             <Product id = "11" name = "Iphone 14 Pro" image = {iphone} price = "9999" />
             <Product id = "11" name = "Iphone 14 Pro" image = {iphone} price = "9999" />

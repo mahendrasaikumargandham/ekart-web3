@@ -3,32 +3,62 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
+    position: relative;
     margin: 10px;
     padding: 10px;
     width: 100%;
     max-height: 400px;
     min-width: 100px;
-    background: #f5f5f5;
+    border: 4px solid rgb(64, 221, 255);
+    border-radius: 24px;
+    background: linear-gradient(rgb(124, 127, 255) 0%, rgb(64, 221, 255) 100%);
+    transition: all 0.4s cubic-bezier(0.8, -1, 0.2, 1.5) 0s;
     z-index: 1;
-    border-radius: 5px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.product::after {
+    background-image: url(./sparkle.gif);
+    background-size: cover;
+    background-position: center center;
+    border-radius: inherit;
+    content: "";
+    height: 100%;
+    left: 0px;
+    mix-blend-mode: color-dodge;
+    opacity: 0.5;
+    pointer-events: none;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+
+.product:hover {
+    box-shadow: rgb(64 221 255) 0px 0px 12px;
 }
 
 .product button {
     margin: 10px;
     padding: 10px;
-    border-radius: 5px;
-    background-color: #0c002b;
     color: #fff;
     border: none;
     outline: none;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 700;
+    text-transform: uppercase;
+    clip-path: polygon(12px 0px, 100% 0px, 100% 72%, calc(100% - 12px) 100%, 0px 100%, 0px 12px);
+    background: #000000;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .product h3 {
+    position: relative;
+    background: transparent;
     margin-top: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
     font-size: 25px;
-    font-weight: 800;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 900;
 }

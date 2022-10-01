@@ -2,13 +2,15 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: #fff;
+    background-color: #222;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-family: 'JetBrains Mono', monospace;
 }
 
 .footer a {
     display: block;
-    color: #000000;
+    color: #999;
     text-decoration: none;
     margin-top: 10px;
 }

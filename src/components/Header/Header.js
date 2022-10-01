@@ -19,19 +19,19 @@ function Header() {
 
     return (
         <div className='header'>
-            <div><Link className = "home" to = "/">Header</Link></div>
-            <div className='wallet'>
-                <button>Connect Wallet</button>
-            </div>
-            <div className='inpt'>
+            <div><Link className = "home" to = "/">Ekart</Link></div>
+            {/* <div className='inpt'>
                 <input 
                     value = {search}
                     onChange = {(e) => setSearch(e.target.value)}
                     placeholder='Search Header..'
                 />
                 <button><SearchIcon /></button>
-            </div>
+            </div> */}
             <div className='options'>
+                <div className='wallet'>
+                    <button>Connect Wallet</button>
+                </div>
                 <Link to = "/location">Location</Link>
                 <Link to = "/accounts">Accounts</Link>
                 <Link to = "/orders">Orders</Link>
