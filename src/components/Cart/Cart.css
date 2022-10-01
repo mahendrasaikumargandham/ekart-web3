@@ -1,0 +1,16 @@
+.cart .cart-details {
+    background: linear-gradient(rgb(124, 127, 255) 0%, rgb(64, 221, 255) 100%);
+}
+
+.cart .cart-details .cart-detail {
+    position: relative;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+}
+
+.cart-detail .detail3 button {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+}
